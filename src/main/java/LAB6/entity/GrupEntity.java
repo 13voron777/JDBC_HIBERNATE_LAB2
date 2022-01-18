@@ -28,14 +28,6 @@ public class GrupEntity {
     public GrupEntity() {
     }
 
-    public List<StudentEntity> getStudents() {
-      return students;
-    }
-
-    public void setStudents(List<StudentEntity> students) {
-      this.students = students;
-    }
-
     public int getIdgrup() {
         return idgrup;
     }
@@ -58,6 +50,14 @@ public class GrupEntity {
 
     public void setNum(int num) {
         this.num = num;
+    }
+
+    public List<StudentEntity> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<StudentEntity> students) {
+        this.students = students;
     }
 
     @Override
