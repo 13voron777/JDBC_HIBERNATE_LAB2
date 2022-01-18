@@ -50,7 +50,7 @@ public class Main {
             for (StudentEntity student : students) {
                 System.out.println("\t" + student.getIdstudent() + " "
                         + student.getName() + " " + student.getLastname()
-                        + " " + student.getGroupid().getIdgrup());
+                        + " " + student.getGrupid().getIdgrup());
             }
         }
         System.out.println();
@@ -59,7 +59,7 @@ public class Main {
         for (StudentEntity student : students) {
             System.out.println(student.getIdstudent() + " "
                     + student.getName() + " " + student.getLastname()
-                    + " " + student.getGroupid().getIdgrup());
+                    + " " + student.getGrupid().getIdgrup());
         }
     }
 }

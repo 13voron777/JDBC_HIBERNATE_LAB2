@@ -51,11 +51,11 @@ public class StudentEntity {
         this.lastname = lastname;
     }
 
-    public GrupEntity getGroupid() {
+    public GrupEntity getGrupid() {
         return grupid;
     }
 
-    public void setGroupid(GrupEntity grupid) {
+    public void setGrupid(GrupEntity grupid) {
         this.grupid = grupid;
     }
 
