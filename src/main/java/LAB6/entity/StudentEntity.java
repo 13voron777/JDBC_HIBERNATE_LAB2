@@ -27,14 +27,6 @@ public class StudentEntity {
     public StudentEntity() {
     }
 
-    public GrupEntity getGroupid() {
-        return grupid;
-    }
-
-    public void setGroupid(GrupEntity grupid) {
-        this.grupid = grupid;
-    }
-
     public int getIdstudent() {
         return idstudent;
     }
@@ -57,6 +49,14 @@ public class StudentEntity {
 
     public void setLastname(String lastname) {
         this.lastname = lastname;
+    }
+
+    public GrupEntity getGroupid() {
+        return grupid;
+    }
+
+    public void setGroupid(GrupEntity grupid) {
+        this.grupid = grupid;
     }
 
     @Override
